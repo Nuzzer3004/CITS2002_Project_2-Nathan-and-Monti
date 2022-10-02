@@ -11,4 +11,4 @@
 #include <string.h>
 #include <ctype.h>
 
-/* Performs all datafile reading and data related tasks */
+/* Defines global variables required by all files */

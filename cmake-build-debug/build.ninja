@@ -64,6 +64,12 @@ build CMakeFiles/CITS2002_Project_2.dir/data_manager.c.o: C_COMPILER__CITS2002_P
   OBJECT_DIR = CMakeFiles/CITS2002_Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles/CITS2002_Project_2.dir
 
+build CMakeFiles/CITS2002_Project_2.dir/globals.c.o: C_COMPILER__CITS2002_Project_2_Debug /Users/nathannguyen/Desktop/CITS2002/CITS2002_Project_2/globals.c || cmake_object_order_depends_target_CITS2002_Project_2
+  DEP_FILE = CMakeFiles/CITS2002_Project_2.dir/globals.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/CITS2002_Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/CITS2002_Project_2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CITS2002_Project_2
@@ -72,7 +78,7 @@ build CMakeFiles/CITS2002_Project_2.dir/data_manager.c.o: C_COMPILER__CITS2002_P
 #############################################
 # Link the executable CITS2002_Project_2
 
-build CITS2002_Project_2: C_EXECUTABLE_LINKER__CITS2002_Project_2_Debug CMakeFiles/CITS2002_Project_2.dir/trove.c.o CMakeFiles/CITS2002_Project_2.dir/error_checker.c.o CMakeFiles/CITS2002_Project_2.dir/data_manager.c.o
+build CITS2002_Project_2: C_EXECUTABLE_LINKER__CITS2002_Project_2_Debug CMakeFiles/CITS2002_Project_2.dir/trove.c.o CMakeFiles/CITS2002_Project_2.dir/error_checker.c.o CMakeFiles/CITS2002_Project_2.dir/data_manager.c.o CMakeFiles/CITS2002_Project_2.dir/globals.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/CITS2002_Project_2.dir
   POST_BUILD = :
