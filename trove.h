@@ -13,4 +13,6 @@
 #include <getopt.h>
 
 // GLOBAL FUNCTIONS
-extern void build(FILE *); // Build Opt Command
+extern FILE *opener(char filename[]);
+extern  void file_reader(FILE *file);
+

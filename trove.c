@@ -8,27 +8,16 @@
 #define	OPTLIST "bf:l:,ru"
 #define DEFAULT_VALUE 4
 
-FILE *file_opener(char filename[]) {
-    /* Returns the opened file pointer */
-
-    FILE *fp = fopen(filename, "r");
-
-    if(fp == NULL) {
-        fprintf(stderr, "cannot open file '%s'\n", filename);
-        exit(EXIT_FAILURE);
-    }
-    return fp;
-}
-
 int main(int argc, char *argv[])
 {
-    int  opt;
+    int opt;
     int value  = DEFAULT_VALUE;
     char *filenm = NULL;
     char *name = argv[argc - 1];
     bool TypeFlag = false; //  0 = Build/Modify, 1 = Search
     opterr	= 0;
 
+    // Interpreting Opt Commands
     while((opt = getopt(argc, argv, OPTLIST)) != -1)   {
 //  Building Trove File
         if(opt == 'b') {
@@ -39,7 +28,7 @@ int main(int argc, char *argv[])
         else if(opt == 'f') {
             filenm  =  strdup(optarg);
             printf("File Name Provided = %s\n", filenm);
-            if (argv[2] == name) {
+            if (argv[3] == name) {
                 TypeFlag = true;
             }
         }
