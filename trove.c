@@ -5,27 +5,52 @@
 //
 
 #include <stdio.h>
-#include <stdlib.h>
-#include "trove.h"
 #include <stdbool.h>
+#include <stdlib.h>
 #include <string.h>
-#include <ctype.h>
+#include <unistd.h>
+#include <getopt.h>
 
-int count = 0;
-
-void trove(void) {
-    /* Trove computation */
-}
+#define	OPTLIST "bf:l:,ru"
+#define DEFAULT_VALUE 4
 
 int main(int argc, char *argv[])
 {
-    /* Maximum 5 arguments */
-    if (argc > 5) {
-        fprintf(stderr, "Usage: %s argument\n", argv[0]);
-        exit(EXIT_FAILURE);
-    } else if (argc ) {
-        printf("Hello World\n");
-        exit(EXIT_SUCCESS);
-        return 0;
+    int  opt;
+    char *filenm = NULL;
+    int value  = DEFAULT_VALUE;
+    char *name = argv[argc - 1];
+    opterr	= 0;
+
+    while((opt = getopt(argc, argv, OPTLIST)) != -1)   {
+//  Building Trove File
+        if(opt == 'b') {
+            printf("Building Trove File\n");
+        }
+//  Provide Name For Trove File
+        else if(opt == 'f') {
+            filenm  =  strdup(optarg);
+            printf("File Name Provided = %s\n", filenm);
+        }
+//  Adding Specific Word Lengths To Trove File
+        else if(opt == 'l') {
+            value  =  atoi(optarg);
+            printf("Word Length Provided = %i\n", value);
+        }
+//  Remove Files
+        else if(opt == 'r') {
+            printf("Removing '%s' from trove-file\n", name);
+        }
+//  Updating Files
+        else if(opt == 'u') {
+            printf("Updating '%s' in trove-file\n", name);
+        }
+//  OOPS - AN UNKNOWN ARGUMENT
+        else {
+            argc = -1;
+        }
     }
+    argc  -= optind;
+    argv  += optind;
+    return 0;
 }
