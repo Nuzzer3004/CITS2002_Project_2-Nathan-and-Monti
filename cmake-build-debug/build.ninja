@@ -58,14 +58,8 @@ build CMakeFiles/CITS2002_Project_2.dir/error_checker.c.o: C_COMPILER__CITS2002_
   OBJECT_DIR = CMakeFiles/CITS2002_Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles/CITS2002_Project_2.dir
 
-build CMakeFiles/CITS2002_Project_2.dir/data_manager.c.o: C_COMPILER__CITS2002_Project_2_Debug /Users/nathannguyen/Desktop/CITS2002/CITS2002_Project_2/data_manager.c || cmake_object_order_depends_target_CITS2002_Project_2
-  DEP_FILE = CMakeFiles/CITS2002_Project_2.dir/data_manager.c.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = CMakeFiles/CITS2002_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/CITS2002_Project_2.dir
-
-build CMakeFiles/CITS2002_Project_2.dir/globals.c.o: C_COMPILER__CITS2002_Project_2_Debug /Users/nathannguyen/Desktop/CITS2002/CITS2002_Project_2/globals.c || cmake_object_order_depends_target_CITS2002_Project_2
-  DEP_FILE = CMakeFiles/CITS2002_Project_2.dir/globals.c.o.d
+build CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.o: C_COMPILER__CITS2002_Project_2_Debug /Users/nathannguyen/Desktop/CITS2002/CITS2002_Project_2/opt_commands.c || cmake_object_order_depends_target_CITS2002_Project_2
+  DEP_FILE = CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/CITS2002_Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles/CITS2002_Project_2.dir
@@ -78,7 +72,7 @@ build CMakeFiles/CITS2002_Project_2.dir/globals.c.o: C_COMPILER__CITS2002_Projec
 #############################################
 # Link the executable CITS2002_Project_2
 
-build CITS2002_Project_2: C_EXECUTABLE_LINKER__CITS2002_Project_2_Debug CMakeFiles/CITS2002_Project_2.dir/trove.c.o CMakeFiles/CITS2002_Project_2.dir/error_checker.c.o CMakeFiles/CITS2002_Project_2.dir/data_manager.c.o CMakeFiles/CITS2002_Project_2.dir/globals.c.o
+build CITS2002_Project_2: C_EXECUTABLE_LINKER__CITS2002_Project_2_Debug CMakeFiles/CITS2002_Project_2.dir/trove.c.o CMakeFiles/CITS2002_Project_2.dir/error_checker.c.o CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/CITS2002_Project_2.dir
   POST_BUILD = :

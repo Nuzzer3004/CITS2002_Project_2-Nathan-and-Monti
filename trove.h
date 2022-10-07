@@ -4,7 +4,13 @@
 // Student2: 23057892 Chambers Monti 50
 //
 
-#ifndef CITS2002_PROJECT_2_TROVE_H
-#define CITS2002_PROJECT_2_TROVE_H
+// GLOBAL INCLUDES
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <getopt.h>
 
-#endif //CITS2002_PROJECT_2_TROVE_H
+// GLOBAL FUNCTIONS
+extern void build(FILE *); // Build Opt Command
