@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 //  Building Trove File
         if(opt == 'b') {
             printf("Building Trove File\n");
-
+            build(name);
         }
 //  Provide Name For Trove File
         else if(opt == 'f') {
@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
     argc  -= optind;
     argv  += optind;
 
-    // For Debugging Determining Mode
+// For Debugging Determining Mode
     if (TypeFlag == true) {
         printf("MODE: Search\n");
     } else {

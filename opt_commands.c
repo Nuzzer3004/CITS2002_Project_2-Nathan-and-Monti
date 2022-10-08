@@ -30,3 +30,8 @@ void file_reader(FILE *file){
     }
 }
 
+void build(char filename[]) {
+    FILE *fp = opener(filename);
+    file_reader(fp);
+}
+

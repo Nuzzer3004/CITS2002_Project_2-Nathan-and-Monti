@@ -13,6 +13,5 @@
 #include <getopt.h>
 
 // GLOBAL FUNCTIONS
-extern FILE *opener(char filename[]);
-extern  void file_reader(FILE *file);
+extern void build(char filename[]);
 
