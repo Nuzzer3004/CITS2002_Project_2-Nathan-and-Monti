@@ -13,7 +13,17 @@ Trove file format:
 
  the trove file may not be a text file
 
+Prompt 1:
+./trove  [-f trovefile]  word
+ lists the absolute pathname of files containing the word
+ if any file does not exist at the time then the files is not listed
+ if any files are found, exit success, otherwise false
 
+Prompt 2:
+ ./trove  [-f trovefile]  [-b  |  -r  |  -u]  [-l length]  filelist
+ requests trove to build a new index, remove info from an index, or update
+ filelist is a sequence of one-or-more filenames or directory names
+ - contents indexed
 
 Command-line options:
 
