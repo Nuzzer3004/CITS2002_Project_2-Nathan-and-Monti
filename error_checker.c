@@ -4,11 +4,6 @@
 // Student2: 23057892 Chambers Monti 50
 //
 
-#include <stdio.h>
-#include <stdlib.h>
 #include "trove.h"
-#include <stdbool.h>
-#include <string.h>
-#include <ctype.h>
 
 /* Dedicated error checker */

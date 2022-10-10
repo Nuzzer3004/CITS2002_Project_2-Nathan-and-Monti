@@ -5,11 +5,12 @@
 //
 #include "trove.h"
 
-#define	OPTLIST "bf:l:,ru"
-#define DEFAULT_VALUE 4
+void usage(){
+/* Reports the programs synopsis if errors in command-line processing */
+}
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
+    /* Receive and validate command-line options & arguments */
     int opt;
     int value  = DEFAULT_VALUE;
     char *filenm = NULL;
@@ -18,35 +19,41 @@ int main(int argc, char *argv[])
     opterr	= 0;
 
     // Interpreting Opt Commands
-    while((opt = getopt(argc, argv, OPTLIST)) != -1)   {
-//  Building Trove File
+    while((opt = getopt(argc, argv, OPTLIST)) != -1) {
+
+    // Building Trove File
         if(opt == 'b') {
             printf("Building Trove File\n");
             build(name);
         }
-//  Provide Name For Trove File
+
+    // Provide Name For Trove File
         else if(opt == 'f') {
-            filenm  =  strdup(optarg);
+            filenm = strdup(optarg);
             printf("File Name Provided = %s\n", filenm);
-            if (argv[3] == name) {
+            if(argv[3] == name) {
                 TypeFlag = true;
             }
         }
-//  Adding Specific Word Lengths To Trove File
+
+    // Adding Specific Word Lengths To Trove File
         else if(opt == 'l') {
             value = atoi(optarg);
-            //CURRENT ISSUE NEED TO RETURN VALUE
+            // CURRENT ISSUE NEED TO RETURN VALUE
             printf("Word Length Provided = %i\n", value);
         }
-//  Remove Files
+
+    // Remove Files
         else if(opt == 'r') {
             printf("Removing '%s' from trove-file\n", name);
         }
-//  Updating Files
+
+    // Updating Files
         else if(opt == 'u') {
             printf("Updating '%s' in trove-file\n", name);
         }
-//  OOPS - AN UNKNOWN ARGUMENT
+
+    // OOPS - AN UNKNOWN ARGUMENT
         else {
             argc = -1;
         }
@@ -55,10 +62,11 @@ int main(int argc, char *argv[])
     argc  -= optind;
     argv  += optind;
 
-// For Debugging Determining Mode
-    if (TypeFlag == true) {
+    // For Debugging Determining Mode
+    if(TypeFlag == true) {
         printf("MODE: Search\n");
-    } else {
+    }
+    else {
         printf("MODE: Build/Modify\n");
     }
     return 0;

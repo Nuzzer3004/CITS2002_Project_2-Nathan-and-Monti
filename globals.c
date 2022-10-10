@@ -4,11 +4,9 @@
 // Student2: 23057892 Chambers Monti 50
 //
 
-#include <stdio.h>
-#include <stdlib.h>
 #include "trove.h"
-#include <stdbool.h>
-#include <string.h>
-#include <ctype.h>
 
 /* Defines global variables required by all files */
+
+// header defines variables,
+// globals defines what that variable is or its size

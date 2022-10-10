@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.23"
+						"string" : "3.21"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CITS2002_Project_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CITS2002_Project_2-Debug-4dc1a84dea3e5e78a6db.json",
+					"jsonFile" : "target-CITS2002_Project_2-Debug-50ea30cbfe9108f61d03.json",
 					"name" : "CITS2002_Project_2",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/nathannguyen/Desktop/CITS2002/CITS2002_Project_2/cmake-build-debug",
-		"source" : "/Users/nathannguyen/Desktop/CITS2002/CITS2002_Project_2"
+		"build" : "/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/cmake-build-debug",
+		"source" : "/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 3
 	}
 }
