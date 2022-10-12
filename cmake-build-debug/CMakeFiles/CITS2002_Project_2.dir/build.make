@@ -111,11 +111,56 @@ CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/opt_commands.c -o CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.s
 
+CMakeFiles/CITS2002_Project_2.dir/build.c.o: CMakeFiles/CITS2002_Project_2.dir/flags.make
+CMakeFiles/CITS2002_Project_2.dir/build.c.o: ../build.c
+CMakeFiles/CITS2002_Project_2.dir/build.c.o: CMakeFiles/CITS2002_Project_2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CITS2002_Project_2.dir/build.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CITS2002_Project_2.dir/build.c.o -MF CMakeFiles/CITS2002_Project_2.dir/build.c.o.d -o CMakeFiles/CITS2002_Project_2.dir/build.c.o -c /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/build.c
+
+CMakeFiles/CITS2002_Project_2.dir/build.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CITS2002_Project_2.dir/build.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/build.c > CMakeFiles/CITS2002_Project_2.dir/build.c.i
+
+CMakeFiles/CITS2002_Project_2.dir/build.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CITS2002_Project_2.dir/build.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/build.c -o CMakeFiles/CITS2002_Project_2.dir/build.c.s
+
+CMakeFiles/CITS2002_Project_2.dir/remove.c.o: CMakeFiles/CITS2002_Project_2.dir/flags.make
+CMakeFiles/CITS2002_Project_2.dir/remove.c.o: ../remove.c
+CMakeFiles/CITS2002_Project_2.dir/remove.c.o: CMakeFiles/CITS2002_Project_2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CITS2002_Project_2.dir/remove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CITS2002_Project_2.dir/remove.c.o -MF CMakeFiles/CITS2002_Project_2.dir/remove.c.o.d -o CMakeFiles/CITS2002_Project_2.dir/remove.c.o -c /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/remove.c
+
+CMakeFiles/CITS2002_Project_2.dir/remove.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CITS2002_Project_2.dir/remove.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/remove.c > CMakeFiles/CITS2002_Project_2.dir/remove.c.i
+
+CMakeFiles/CITS2002_Project_2.dir/remove.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CITS2002_Project_2.dir/remove.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/remove.c -o CMakeFiles/CITS2002_Project_2.dir/remove.c.s
+
+CMakeFiles/CITS2002_Project_2.dir/update.c.o: CMakeFiles/CITS2002_Project_2.dir/flags.make
+CMakeFiles/CITS2002_Project_2.dir/update.c.o: ../update.c
+CMakeFiles/CITS2002_Project_2.dir/update.c.o: CMakeFiles/CITS2002_Project_2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CITS2002_Project_2.dir/update.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CITS2002_Project_2.dir/update.c.o -MF CMakeFiles/CITS2002_Project_2.dir/update.c.o.d -o CMakeFiles/CITS2002_Project_2.dir/update.c.o -c /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/update.c
+
+CMakeFiles/CITS2002_Project_2.dir/update.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CITS2002_Project_2.dir/update.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/update.c > CMakeFiles/CITS2002_Project_2.dir/update.c.i
+
+CMakeFiles/CITS2002_Project_2.dir/update.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CITS2002_Project_2.dir/update.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/update.c -o CMakeFiles/CITS2002_Project_2.dir/update.c.s
+
 # Object files for target CITS2002_Project_2
 CITS2002_Project_2_OBJECTS = \
 "CMakeFiles/CITS2002_Project_2.dir/trove.c.o" \
 "CMakeFiles/CITS2002_Project_2.dir/error_checker.c.o" \
-"CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.o"
+"CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.o" \
+"CMakeFiles/CITS2002_Project_2.dir/build.c.o" \
+"CMakeFiles/CITS2002_Project_2.dir/remove.c.o" \
+"CMakeFiles/CITS2002_Project_2.dir/update.c.o"
 
 # External object files for target CITS2002_Project_2
 CITS2002_Project_2_EXTERNAL_OBJECTS =
@@ -123,9 +168,12 @@ CITS2002_Project_2_EXTERNAL_OBJECTS =
 CITS2002_Project_2: CMakeFiles/CITS2002_Project_2.dir/trove.c.o
 CITS2002_Project_2: CMakeFiles/CITS2002_Project_2.dir/error_checker.c.o
 CITS2002_Project_2: CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.o
+CITS2002_Project_2: CMakeFiles/CITS2002_Project_2.dir/build.c.o
+CITS2002_Project_2: CMakeFiles/CITS2002_Project_2.dir/remove.c.o
+CITS2002_Project_2: CMakeFiles/CITS2002_Project_2.dir/update.c.o
 CITS2002_Project_2: CMakeFiles/CITS2002_Project_2.dir/build.make
 CITS2002_Project_2: CMakeFiles/CITS2002_Project_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable CITS2002_Project_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable CITS2002_Project_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CITS2002_Project_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

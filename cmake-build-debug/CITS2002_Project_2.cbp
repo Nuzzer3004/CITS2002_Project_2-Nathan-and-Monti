@@ -78,16 +78,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/build.c">
+			<Option target="CITS2002_Project_2"/>
+		</Unit>
 		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/error_checker.c">
 			<Option target="CITS2002_Project_2"/>
 		</Unit>
 		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/opt_commands.c">
 			<Option target="CITS2002_Project_2"/>
 		</Unit>
+		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/remove.c">
+			<Option target="CITS2002_Project_2"/>
+		</Unit>
 		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/trove.c">
 			<Option target="CITS2002_Project_2"/>
 		</Unit>
 		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/trove.h">
+			<Option target="CITS2002_Project_2"/>
+		</Unit>
+		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/update.c">
 			<Option target="CITS2002_Project_2"/>
 		</Unit>
 		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/CMakeLists.txt">

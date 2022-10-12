@@ -129,6 +129,30 @@ CITS2002_Project_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/build
 .PHONY : CITS2002_Project_2/fast
 
+build.o: build.c.o
+.PHONY : build.o
+
+# target to build an object file
+build.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/build.c.o
+.PHONY : build.c.o
+
+build.i: build.c.i
+.PHONY : build.i
+
+# target to preprocess a source file
+build.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/build.c.i
+.PHONY : build.c.i
+
+build.s: build.c.s
+.PHONY : build.s
+
+# target to generate assembly for a file
+build.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/build.c.s
+.PHONY : build.c.s
+
 error_checker.o: error_checker.c.o
 .PHONY : error_checker.o
 
@@ -177,6 +201,30 @@ opt_commands.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.s
 .PHONY : opt_commands.c.s
 
+remove.o: remove.c.o
+.PHONY : remove.o
+
+# target to build an object file
+remove.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/remove.c.o
+.PHONY : remove.c.o
+
+remove.i: remove.c.i
+.PHONY : remove.i
+
+# target to preprocess a source file
+remove.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/remove.c.i
+.PHONY : remove.c.i
+
+remove.s: remove.c.s
+.PHONY : remove.s
+
+# target to generate assembly for a file
+remove.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/remove.c.s
+.PHONY : remove.c.s
+
 trove.o: trove.c.o
 .PHONY : trove.o
 
@@ -201,6 +249,30 @@ trove.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/trove.c.s
 .PHONY : trove.c.s
 
+update.o: update.c.o
+.PHONY : update.o
+
+# target to build an object file
+update.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/update.c.o
+.PHONY : update.c.o
+
+update.i: update.c.i
+.PHONY : update.i
+
+# target to preprocess a source file
+update.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/update.c.i
+.PHONY : update.c.i
+
+update.s: update.c.s
+.PHONY : update.s
+
+# target to generate assembly for a file
+update.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/update.c.s
+.PHONY : update.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CITS2002_Project_2"
+	@echo "... build.o"
+	@echo "... build.i"
+	@echo "... build.s"
 	@echo "... error_checker.o"
 	@echo "... error_checker.i"
 	@echo "... error_checker.s"
 	@echo "... opt_commands.o"
 	@echo "... opt_commands.i"
 	@echo "... opt_commands.s"
+	@echo "... remove.o"
+	@echo "... remove.i"
+	@echo "... remove.s"
 	@echo "... trove.o"
 	@echo "... trove.i"
 	@echo "... trove.s"
+	@echo "... update.o"
+	@echo "... update.i"
+	@echo "... update.s"
 .PHONY : help
 
 

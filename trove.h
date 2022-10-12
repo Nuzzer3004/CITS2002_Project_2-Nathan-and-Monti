@@ -1,9 +1,3 @@
-//
-// CITS2002 Project 2 2022
-// Student1: 23058262 Nguyen Nathan 50
-// Student2: 23057892 Chambers Monti 50
-//
-
 /*
 Trove file format:
 
@@ -52,7 +46,7 @@ Step by step plan:
 
  2. (recursively) traverse the filelist to find all files to be indexed
 
- 3. Open each file found and fild all 'words' of atleast length
+ 3. Open each file found and find all 'words' of atleast length
 
  4. Store each word and each filename in our data-structure
 
@@ -73,6 +67,7 @@ Step by step plan:
 // PREPROCESSOR CONSTANTS
 #define	OPTLIST "bf:l:,ru"
 #define DEFAULT_VALUE 4
+#define LINE_SIZE 100
 
 // GLOBAL FUNCTIONS
 extern void build(char filename[]);
@@ -80,3 +75,4 @@ extern void build(char filename[]);
 // GLOBAL VARIABLES
 
 // Our own data structure for long term data
+typedef struct Trove;
