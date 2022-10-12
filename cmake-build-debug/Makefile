@@ -225,6 +225,30 @@ remove.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/remove.c.s
 .PHONY : remove.c.s
 
+search.o: search.c.o
+.PHONY : search.o
+
+# target to build an object file
+search.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/search.c.o
+.PHONY : search.c.o
+
+search.i: search.c.i
+.PHONY : search.i
+
+# target to preprocess a source file
+search.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/search.c.i
+.PHONY : search.c.i
+
+search.s: search.c.s
+.PHONY : search.s
+
+# target to generate assembly for a file
+search.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CITS2002_Project_2.dir/build.make CMakeFiles/CITS2002_Project_2.dir/search.c.s
+.PHONY : search.c.s
+
 trove.o: trove.c.o
 .PHONY : trove.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... remove.o"
 	@echo "... remove.i"
 	@echo "... remove.s"
+	@echo "... search.o"
+	@echo "... search.i"
+	@echo "... search.s"
 	@echo "... trove.o"
 	@echo "... trove.i"
 	@echo "... trove.s"

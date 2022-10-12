@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CITS2002_Project_2.dir/opt_commands.c.o.d"
   "CMakeFiles/CITS2002_Project_2.dir/remove.c.o"
   "CMakeFiles/CITS2002_Project_2.dir/remove.c.o.d"
+  "CMakeFiles/CITS2002_Project_2.dir/search.c.o"
+  "CMakeFiles/CITS2002_Project_2.dir/search.c.o.d"
   "CMakeFiles/CITS2002_Project_2.dir/trove.c.o"
   "CMakeFiles/CITS2002_Project_2.dir/trove.c.o.d"
   "CMakeFiles/CITS2002_Project_2.dir/update.c.o"

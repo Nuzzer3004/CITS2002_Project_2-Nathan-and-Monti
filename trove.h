@@ -65,14 +65,24 @@ Step by step plan:
 #include <getopt.h>
 
 // PREPROCESSOR CONSTANTS
-#define	OPTLIST "bf:l:,ru"
-#define DEFAULT_VALUE 4
+#define	OPTLIST "bruf:l:"
+#define DEFAULT_LENGTH 4
+#define DEFAULT_FILE "/tmp/trove"
 #define LINE_SIZE 100
+#define CHECK_ALLOC(p) if(p == NULL) { perror(__func__); exit(EXIT_FAILURE); }
 
 // GLOBAL FUNCTIONS
-extern void build(char filename[]);
+extern void build_trove();
+extern void update_trove();
+extern void remove_trove();
+extern void search_trove();
+extern FILE *file_opener(char filename[]);
+
 
 // GLOBAL VARIABLES
 
 // Our own data structure for long term data
-typedef struct Trove;
+typedef struct _trove{
+    char *word;
+    char *pathname;
+} TROVE;

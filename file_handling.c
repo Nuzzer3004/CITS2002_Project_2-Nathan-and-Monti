@@ -2,7 +2,7 @@
 
 #include "trove.h"
 
-FILE *opener(char filename[]) {
+FILE *file_opener(char filename[]) {
     /* Returns the opened file pointer */
 
     FILE *fp = fopen(filename, "r");
@@ -23,9 +23,3 @@ void file_reader(FILE *file){
         printf("Line: %s\n", line);
     }
 }
-
-void build(char filename[]) {
-    FILE *fp = opener(filename);
-    file_reader(fp);
-}
-

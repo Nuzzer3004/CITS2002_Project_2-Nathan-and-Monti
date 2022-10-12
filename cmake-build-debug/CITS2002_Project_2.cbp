@@ -90,6 +90,9 @@
 		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/remove.c">
 			<Option target="CITS2002_Project_2"/>
 		</Unit>
+		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/search.c">
+			<Option target="CITS2002_Project_2"/>
+		</Unit>
 		<Unit filename="/Users/montichambers/CLionProjects/CITS2002_Project_2-Nathan-and-Monti/trove.c">
 			<Option target="CITS2002_Project_2"/>
 		</Unit>
